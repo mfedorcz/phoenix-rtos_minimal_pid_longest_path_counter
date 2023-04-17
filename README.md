@@ -14,7 +14,7 @@ Program to wywołanie systemowe, systemu phoenix-rtos, które rekurencyjnie  prz
    /
   P7 
   
-  Dla minimalnego PID 3, wywołanie powinno zwrócić: PID=3, path_length=1.
+Dla minimalnego PID 3, wywołanie powinno zwrócić: PID=3, path_length=1.
   
   W repozytorium znajdują się niezbędne pliki, które można przerzucić do katalogu czystego systemu. Po zbudowaniu obrazu i jego uruchomieniu wywołanie powinno działać. 
   Plik testy.pdf ilustruje kilka przypadków działania wywołania.
