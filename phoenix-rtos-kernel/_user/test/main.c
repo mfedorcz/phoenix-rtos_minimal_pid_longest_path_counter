@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 #include </home/phoenix-lab2/libphoenix/include/sys/lab2.h>
+#define FORK_QT 4
 
 int main(void)
 {
-	for(int i = 0; i < 4; ++i)
+	for(int i = 0; i < FORK_QT; ++i)
 	{
 		if( fork() > 0)
 		{
