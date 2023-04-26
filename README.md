@@ -17,5 +17,6 @@ Program to wywołanie systemowe, systemu phoenix-rtos, które rekurencyjnie  prz
 
 Dla minimalnego PID 3, wywołanie powinno zwrócić: PID=3, path_length=1.
   
-  W repozytorium znajdują się niezbędne pliki, które można przerzucić do katalogu czystego systemu. Po zbudowaniu obrazu i jego uruchomieniu wywołanie powinno działać. 
+  W repozytorium znajdują się niezbędne pliki z programem testowym, które można przerzucić do katalogu czystego systemu. Po zbudowaniu obrazu i jego uruchomieniu wywołanie powinno działać.
+  Program testowy tworzy "FORK_QT" "pokoleń procesów", przez co można zmieniać wynik testu.
   Plik testy.pdf ilustruje kilka przypadków działania wywołania.
